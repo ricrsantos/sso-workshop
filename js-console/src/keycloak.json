@@ -1,5 +1,8 @@
-{
-  "realm" : "ricardo-santos",
-  "auth-server-url" : "https://keycloak-dev-rhsso.apps.ocp4-dev.sascar.com.br/auth",
-  "resource" : "js-console"
+{  
+  "realm": "ricardo-santos",
+  "auth-server-url": "https://keycloak-dev-rhsso.apps.ocp4-dev.sascar.com.br/auth/",
+  "ssl-required": "external",
+  "resource": "js-console",
+  "public-client": true,
+  "confidential-port": 0
 }
